@@ -121,3 +121,37 @@ nav img {
   margin-bottom: 10px;
   font-size: 20px;
 }
+.flower-lover {
+  display: flex;
+  gap: 60px;
+  margin-top: 150px;
+}
+.flower-lover-image {
+  position: relative;
+  display: inline-block;
+}
+.flower-lover-img {
+  width: 540px;
+  height: 550px;
+}
+.flower-lover-badge {
+  position: absolute;
+  top: -80px;
+  right: -85px;
+  width: 200px;
+  height: auto;
+  z-index: 1;
+}
+.flower-lover-text {
+  text-align: left;
+}
+.flower-lover-text h2 {
+  font-weight: 700;
+  font-size: 45px;
+  margin-bottom: 10px;
+}
+.flower-lover-text p {
+  font-size: 22px;
+  font-weight: 400;
+  width: 480px;
+}
