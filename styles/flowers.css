@@ -9,6 +9,19 @@
 .primary-color {
   color: rgb(233, 90, 8);
 }
+.btn {
+  background: rgb(233, 90, 8);
+  padding: 15px 25px;
+  border-radius: 6px;
+  font-weight: 600;
+  color: white;
+  border: none;
+  width: 270px;
+  font-size: 20px;
+}
+.btn:hover {
+  background: #d80056;
+}
 nav {
   display: flex;
   justify-content: space-between;
@@ -16,8 +29,8 @@ nav {
   margin-top: 30px;
 }
 nav img {
- width: 135px;
-height: 82px;
+  width: 135px;
+  height: 82px;
 }
 .nav-items {
   display: flex;
@@ -42,7 +55,7 @@ height: 82px;
 .banner {
   display: flex;
 
- justify-content: space-between;
+  justify-content: space-between;
   align-items: center;
   padding: 0;
   border-radius: 10px;
@@ -63,4 +76,48 @@ height: 82px;
 }
 .banner-image img {
   width: 100%;
+}
+.description {
+  align-items: center;
+  text-align: center;
+  margin-top: 80px;
+}
+.description h2 {
+  font-weight: 700;
+  font-size: 45px;
+  margin-bottom: 10px;
+}
+.description p {
+  color: rgba(0, 0, 0, 0.5);
+  font-size: 22px;
+  font-weight: 400;
+}
+.card-container {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 15px 15px;
+  margin-top: 50px;
+}
+.card {
+  background-color: white;
+  text-align: center;
+  padding: 15px;
+  border-radius: 8px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease;
+}
+.card:hover {
+  transform: scale(1.03);
+}
+.card p {
+  font-size: 16px;
+  font-weight: 500;
+  margin-bottom: 5px;
+}
+.card h3 {
+  font-weight: 700;
+  color: rgb(17, 17, 17);
+  margin-top: 5px;
+  margin-bottom: 10px;
+  font-size: 20px;
 }
