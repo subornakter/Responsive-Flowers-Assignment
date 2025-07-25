@@ -436,7 +436,7 @@ nav img {
   .card button {
     padding: 10px 35px;
     width: 100%;
-    font-size: 18px;
+    font-size: 16px;
   }
   .flower-lover {
     flex-direction: column;
@@ -460,7 +460,7 @@ nav img {
     font-size: 28px;
   }
   .flower-lover-text p {
-    font-size: 20px;
+    font-size: 18px;
     width: 100%;
   }
   .flower-lover-text ul {
