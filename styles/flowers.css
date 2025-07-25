@@ -448,6 +448,7 @@ nav img {
   .flower-lover-img {
     width: 100%;
     height: auto;
+    align-items: center;
   }
 
   .flower-lover-badge {
